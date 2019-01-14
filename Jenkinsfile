@@ -1,5 +1,6 @@
 
-node('docker-base') {
+//node('docker-base') { // the node here is the node that jenkins will build to.
+node('jenkins_node_1') {
 
   echo "\nInside the docker-base\n"
   
